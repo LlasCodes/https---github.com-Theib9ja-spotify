@@ -25,6 +25,7 @@
     "to-regex-range": "^5.0.1"
   },
   "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --minify",
     "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   },
   "author": "",
