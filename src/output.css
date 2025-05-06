@@ -237,6 +237,12 @@
   .sticky {
     position: sticky;
   }
+  .right-0 {
+    right: calc(var(--spacing) * 0);
+  }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
   .isolate {
     isolation: isolate;
   }
@@ -1890,6 +1896,9 @@ a {
 }
 .main {
   margin-top: 70px;
+}
+.color-click {
+  background-color: green;
 }
 @property --tw-translate-x {
   syntax: "*";
