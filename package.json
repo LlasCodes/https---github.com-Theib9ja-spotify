@@ -14,7 +14,6 @@
     "is-number": "^7.0.0",
     "jiti": "^2.4.2",
     "lightningcss": "^1.29.2",
-    "lightningcss-win32-x64-msvc": "^1.29.2",
     "micromatch": "^4.0.8",
     "mri": "^1.2.0",
     "node-addon-api": "^7.1.1",
@@ -25,11 +24,10 @@
     "to-regex-range": "^5.0.1"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --minify",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --minify",
     "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   },
   "author": "",
   "license": "ISC",
   "description": ""
 }
-
